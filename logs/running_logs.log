@@ -140,3 +140,360 @@ x==========x]
 [2024-06-11 18:14:22,020: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-06-11 20:09:44,193: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-11 20:09:44,200: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-11 20:09:44,203: INFO: common: created directory at: artifacts]
+[2024-06-11 20:09:58,495: INFO: common: json file saved at: scores.json]
+[2024-06-11 20:10:19,523: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-06-11 20:14:33,071: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-11 20:14:33,075: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-11 20:14:33,077: INFO: common: created directory at: artifacts]
+[2024-06-11 20:14:45,400: INFO: common: json file saved at: scores.json]
+[2024-06-21 11:56:30,485: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 11:56:30,575: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 11:56:30,579: INFO: common: created directory at: artifacts]
+[2024-06-21 11:56:46,319: INFO: common: json file saved at: scores.json]
+[2024-06-21 11:56:47,094: INFO: helpers: Initialized MLflow to track repo "Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project"]
+[2024-06-21 11:56:47,098: INFO: helpers: Repository Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project initialized!]
+[2024-06-21 11:57:06,330: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))': /Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-06-21 11:57:09,200: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-21 11:57:11,183: INFO: builder_impl: Assets written to: C:\Users\aavil\AppData\Local\Temp\tmpxi8ymqlp\model\data\model\assets]
+[2024-06-21 12:03:52,433: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:03:52,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:03:52,441: INFO: common: created directory at: artifacts]
+[2024-06-21 12:04:03,745: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:04:04,491: INFO: helpers: Initialized MLflow to track repo "Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project"]
+[2024-06-21 12:04:04,493: INFO: helpers: Repository Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project initialized!]
+[2024-06-21 12:04:06,672: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-21 12:04:07,645: INFO: builder_impl: Assets written to: C:\Users\aavil\AppData\Local\Temp\tmp1mli7_zo\model\data\model\assets]
+[2024-06-21 12:07:49,525: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:07:49,531: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:07:49,533: INFO: common: created directory at: artifacts]
+[2024-06-21 12:08:01,659: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:08:02,413: INFO: helpers: Initialized MLflow to track repo "Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project"]
+[2024-06-21 12:08:02,510: INFO: helpers: Repository Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project initialized!]
+[2024-06-21 12:08:05,161: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-21 12:08:06,227: INFO: builder_impl: Assets written to: C:\Users\aavil\AppData\Local\Temp\tmp6gp08ydg\model\data\model\assets]
+[2024-06-21 12:27:40,027: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-06-21 12:27:40,032: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:27:40,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:27:40,048: INFO: common: created directory at: artifacts]
+[2024-06-21 12:27:40,050: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-21 12:27:40,051: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:28:00,011: ERROR: main: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))]
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Programas\Anaconda\envs\kidney\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Programas\Anaconda\envs\kidney\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Programas\Anaconda\envs\kidney\lib\http\client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 801, in urlopen
+    retries = retries.increment(
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 552, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Programas\Anaconda\envs\kidney\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Programas\Anaconda\envs\kidney\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Programas\Anaconda\envs\kidney\lib\http\client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    obj.main()
+  File "d:\desarrollo\kidney-disease-classification\kidney_disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "d:\desarrollo\kidney-disease-classification\kidney_disease-classification-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 31, in download_file
+    raise e
+  File "d:\desarrollo\kidney-disease-classification\kidney_disease-classification-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\envs\kidney\lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2024-06-21 12:30:17,864: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-06-21 12:30:17,867: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:30:17,870: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:30:17,870: INFO: common: created directory at: artifacts]
+[2024-06-21 12:30:17,871: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-21 12:30:17,871: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:30:24,171: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:30:25,667: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:30:25,667: INFO: main: *******************]
+[2024-06-21 12:30:25,668: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-21 12:30:25,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:30:25,672: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:30:25,672: INFO: common: created directory at: artifacts]
+[2024-06-21 12:30:25,673: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-21 12:30:26,316: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-21 12:30:26,654: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-21 12:30:26,654: INFO: main: *******************]
+[2024-06-21 12:30:26,654: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-21 12:30:26,658: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:30:26,660: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:30:26,661: INFO: common: created directory at: artifacts]
+[2024-06-21 12:30:26,663: INFO: common: created directory at: artifacs\training]
+[2024-06-21 12:30:54,755: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-21 12:30:54,756: INFO: main: *******************]
+[2024-06-21 12:30:54,756: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-21 12:30:54,759: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:30:54,761: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:30:54,761: INFO: common: created directory at: artifacts]
+[2024-06-21 12:30:54,761: ERROR: main: 'ConfigurationManager' object has no attribute 'get_evaluation_config']
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    obj.main()
+  File "d:\desarrollo\kidney-disease-classification\kidney_disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 14, in main
+    eval_config = config.get_evaluation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_evaluation_config'
+[2024-06-21 12:32:21,467: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-06-21 12:32:21,471: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:32:21,473: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:32:21,474: INFO: common: created directory at: artifacts]
+[2024-06-21 12:32:21,475: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-21 12:32:21,475: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:32:26,981: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:32:30,597: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:32:30,598: INFO: main: *******************]
+[2024-06-21 12:32:30,598: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-21 12:32:30,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:32:30,602: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:32:30,603: INFO: common: created directory at: artifacts]
+[2024-06-21 12:32:30,603: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-21 12:32:31,019: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-21 12:32:31,354: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-21 12:32:31,354: INFO: main: *******************]
+[2024-06-21 12:32:31,354: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-21 12:32:31,357: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:32:31,358: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:32:31,359: INFO: common: created directory at: artifacts]
+[2024-06-21 12:32:31,359: INFO: common: created directory at: artifacs\training]
+[2024-06-21 12:33:06,578: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-21 12:33:06,578: INFO: main: *******************]
+[2024-06-21 12:33:06,578: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-21 12:33:06,581: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:33:06,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:33:06,584: INFO: common: created directory at: artifacts]
+[2024-06-21 12:33:06,585: ERROR: main: 'ConfigurationManager' object has no attribute 'get_evaluation_config']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    model_evalution.main()
+  File "d:\desarrollo\kidney-disease-classification\kidney_disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 14, in main
+    eval_config = config.get_evaluation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_evaluation_config'
+[2024-06-21 12:37:13,668: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-06-21 12:37:13,671: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:37:13,673: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:37:13,674: INFO: common: created directory at: artifacts]
+[2024-06-21 12:37:13,674: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-21 12:37:13,675: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:37:22,283: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:37:24,961: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:37:24,961: INFO: main: *******************]
+[2024-06-21 12:37:24,962: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-21 12:37:24,964: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:37:24,966: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:37:24,966: INFO: common: created directory at: artifacts]
+[2024-06-21 12:37:24,967: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-21 12:37:25,350: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-21 12:37:25,663: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-21 12:37:25,663: INFO: main: *******************]
+[2024-06-21 12:37:25,664: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-21 12:37:25,666: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:37:25,668: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:37:25,669: INFO: common: created directory at: artifacts]
+[2024-06-21 12:37:25,670: INFO: common: created directory at: artifacs\training]
+[2024-06-21 12:37:53,138: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-21 12:37:53,139: INFO: main: *******************]
+[2024-06-21 12:37:53,139: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-21 12:37:53,142: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:37:53,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:37:53,144: INFO: common: created directory at: artifacts]
+[2024-06-21 12:37:53,145: ERROR: main: 'ConfigurationManager' object has no attribute 'get_evaluation_config']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    model_evalution.main()
+  File "d:\desarrollo\kidney-disease-classification\kidney_disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 16, in main
+    eval_config = config.get_evaluation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_evaluation_config'
+[2024-06-21 12:39:37,199: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-06-21 12:39:37,202: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:39:37,203: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:39:37,204: INFO: common: created directory at: artifacts]
+[2024-06-21 12:39:37,205: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-21 12:39:37,206: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:39:42,634: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:39:45,233: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:39:45,234: INFO: main: *******************]
+[2024-06-21 12:39:45,234: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-21 12:39:45,237: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:39:45,238: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:39:45,239: INFO: common: created directory at: artifacts]
+[2024-06-21 12:39:45,239: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-21 12:39:45,626: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-21 12:39:45,912: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-21 12:39:45,913: INFO: main: *******************]
+[2024-06-21 12:39:45,913: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-21 12:39:45,916: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:39:45,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:39:45,919: INFO: common: created directory at: artifacts]
+[2024-06-21 12:39:45,920: INFO: common: created directory at: artifacs\training]
+[2024-06-21 12:40:12,552: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-21 12:40:12,552: INFO: main: *******************]
+[2024-06-21 12:40:12,552: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-21 12:40:12,555: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:40:12,557: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:40:12,557: INFO: common: created directory at: artifacts]
+[2024-06-21 12:40:21,794: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:40:21,796: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:40:23,286: INFO: helpers: Initialized MLflow to track repo "Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project"]
+[2024-06-21 12:40:23,287: INFO: helpers: Repository Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project initialized!]
+[2024-06-21 12:40:26,070: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-21 12:40:27,007: INFO: builder_impl: Assets written to: C:\Users\aavil\AppData\Local\Temp\tmp1tjfl0yh\model\data\model\assets]
+[2024-06-21 12:41:15,051: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:42:40,480: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-06-21 12:42:40,483: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:42:40,488: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:42:40,489: INFO: common: created directory at: artifacts]
+[2024-06-21 12:42:40,489: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-21 12:42:40,490: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:42:46,122: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:42:49,279: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:42:49,280: INFO: main: *******************]
+[2024-06-21 12:42:49,280: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-21 12:42:49,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:42:49,286: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:42:49,287: INFO: common: created directory at: artifacts]
+[2024-06-21 12:42:49,288: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-21 12:42:49,736: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-21 12:42:50,112: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-21 12:42:50,113: INFO: main: *******************]
+[2024-06-21 12:42:50,113: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-21 12:42:50,117: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:42:50,120: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:42:50,120: INFO: common: created directory at: artifacts]
+[2024-06-21 12:42:50,121: INFO: common: created directory at: artifacs\training]
+[2024-06-21 12:44:17,186: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-21 12:44:17,188: INFO: main: *******************]
+[2024-06-21 12:44:17,188: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-21 12:44:17,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:44:17,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:44:17,195: INFO: common: created directory at: artifacts]
+[2024-06-21 12:44:26,776: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:44:26,780: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:44:28,005: INFO: helpers: Initialized MLflow to track repo "Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project"]
+[2024-06-21 12:44:28,007: INFO: helpers: Repository Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project initialized!]
+[2024-06-21 12:44:30,642: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-21 12:44:31,814: INFO: builder_impl: Assets written to: C:\Users\aavil\AppData\Local\Temp\tmpczjlct0y\model\data\model\assets]
+[2024-06-21 12:45:20,510: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:46:22,963: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-06-21 12:46:22,966: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:46:22,971: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:46:22,972: INFO: common: created directory at: artifacts]
+[2024-06-21 12:46:22,972: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-21 12:46:22,972: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:46:29,382: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-21 12:46:32,253: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-21 12:46:32,254: INFO: main: *******************]
+[2024-06-21 12:46:32,254: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-21 12:46:32,256: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:46:32,257: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:46:32,258: INFO: common: created directory at: artifacts]
+[2024-06-21 12:46:32,258: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-21 12:46:32,679: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-21 12:46:33,115: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-21 12:46:33,115: INFO: main: *******************]
+[2024-06-21 12:46:33,115: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-21 12:46:33,118: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:46:33,120: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:46:33,120: INFO: common: created directory at: artifacts]
+[2024-06-21 12:46:33,121: INFO: common: created directory at: artifacs\training]
+[2024-06-21 12:49:01,251: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-21 12:49:01,252: INFO: main: *******************]
+[2024-06-21 12:49:01,252: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-21 12:49:01,255: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-21 12:49:01,257: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-21 12:49:01,258: INFO: common: created directory at: artifacts]
+[2024-06-21 12:49:11,110: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:49:11,113: INFO: common: json file saved at: scores.json]
+[2024-06-21 12:49:12,371: INFO: helpers: Initialized MLflow to track repo "Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project"]
+[2024-06-21 12:49:12,373: INFO: helpers: Repository Abimael-Sacker/Kidney_Disease-Classification-Deep-Learning-Project initialized!]
+[2024-06-21 12:49:15,005: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-21 12:49:15,836: INFO: builder_impl: Assets written to: C:\Users\aavil\AppData\Local\Temp\tmpgsdxdmug\model\data\model\assets]
+[2024-06-21 12:50:02,469: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

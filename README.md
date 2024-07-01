@@ -60,3 +60,9 @@ export MLFLOW_TRACKING_USERNAME=Abimael-Sacker
 export MLFLOW_TRACKING_PASSWORD=Razernaga15$
 
 ```
+
+### DVC cmd
+
+1. dvc init
+2. dvc repro
+3. dvc dag
